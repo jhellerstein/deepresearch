@@ -39,7 +39,7 @@ ol, ul {
   list-style: none;
 }
 
-table {
+td {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -234,7 +234,8 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  width: 100%;
+  border: 0px solid #373737;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -242,13 +243,15 @@ table {
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
+  text-align: center;
   /* background: #373737; */
   /* color: #fff; */
  }
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  border: 0px solid #373737;
+  text-align: center;
  }
 
 form {
